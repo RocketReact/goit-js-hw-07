@@ -35,6 +35,4 @@ const liElement = images.map((item) => {
   return li;
 });
 
-liElement.forEach((li) => {
-  ul.appendChild(li);
-});
+ul.append(...liElement);
