@@ -83,9 +83,10 @@ body {
 
 /*task3*/
 .div-input {
-  display: flex;
   position: relative;
+  display: flex;
   flex-direction: column;
+  margin: 0 auto;
   gap: 16px;
   max-width: 408px;
   border-radius: 8px;
