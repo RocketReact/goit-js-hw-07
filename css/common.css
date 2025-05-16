@@ -6,6 +6,7 @@
   --lightViolet: #F6F6FE;
   --lightGrey: #808080;
   --darkBlue: #2E2F42;
+  --blue: #4E75FF;
 }
 
 body {
@@ -121,7 +122,53 @@ h1 {
   margin: 0;
 }
 
+/*task4*/
+.login-form {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 408px;
+  max-height: 256px;
+  padding: 24px;
+  background-color: var(--white);
+  gap: 8px;
+  border-radius: 8px;
+  font-family: Montserrat, sans-serif;
+}
+.login-form label {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.login-form input {
+  width: 100%;
+  display: block;
+  height: 40px;
+  border: 1px solid var(--lightGrey);
+  border-radius: 4px;
 
+}
+.login-form label:nth-child(2) {
+  padding-bottom: 8px;
+}
+.login-form button {
+  display: flex;
+  width: 86px;
+  height: 40px;
+  justify-content: center;
+  text-align: center;
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  color: var(--white);
+  background-color: var(--blue);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 8px 0;
+}
 
 
 
