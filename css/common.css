@@ -170,7 +170,36 @@ h1 {
   padding: 8px 0;
 }
 
+/*task5*/
+.widget {
+  display: flex;
+  flex-direction: column;
+  max-width: 345px;
+  height: 280px;
+  margin: 0 auto;
+  border-radius: 8px;
+  background-color: var(--white);
+  justify-content: center;
+  align-items: center;
+}
+.widget p {
+  font-family: Montserrat, sans-serif;
+}
+.change-color {
+  color: var(--white);
+  background-color: var(--blue);
+  border: none;
+  border-radius: 8px;
+  font-family: Montserrat, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  padding: 8px 16px;
 
+
+}
 
 
 
